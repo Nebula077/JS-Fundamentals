@@ -5,5 +5,5 @@ if (args.length === 0) {
 } else if (args.length === 1) {
     console.log(args[0] + ' is undefined');
 } else {
-    console.log(args.join(args[0] + ' is ' + args[1]));
+    console.log(args[0] + ' is ' + args[1]);
 }
